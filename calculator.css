@@ -1,0 +1,48 @@
+.wholeBody {
+    box-sizing: content-box;
+    width: 280px;
+    height: 420px;
+    box-align: center;
+    background-color: white;
+    margin-left: 40%;
+    margin-top: 6.5%;
+    border: 3px solid whitesmoke;
+}
+
+table, th, td {
+    height: 70px;
+    
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.grid-button {
+    width: 67px;
+    height: 67px;
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+.grid-button:hover {
+    background: #22D6F2;
+}
+
+#input{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    width:280px;
+    overflow: auto;
+}
+
+#output {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
